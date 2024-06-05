@@ -1,0 +1,28 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  /* ^ three columns that each take up a third of containers width */
+  gap: 20px;
+}
+
+.widget {
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+
+textarea {
+  width: 80%;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+}
