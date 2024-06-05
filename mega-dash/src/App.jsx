@@ -1,3 +1,4 @@
+import RandomQuote from './components/RandomQuote'
 import PomodoroTimer from './components/PomodoroTimer'
 import Diceroller from './components/DiceRoller'
 import List from './components/to-do'
@@ -26,7 +27,7 @@ function App() {
         <List/>
           </div>
         <div className='widget widget-4'>Random Quote generator
-        
+        <RandomQuote/>
         </div>
         <div className='widget widget-5'>Virtual dice roller
         <Diceroller/>
