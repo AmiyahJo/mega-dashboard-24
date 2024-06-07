@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import '/home/codio/workspace/mega-dash/src/components/to-do.css'
 
 function List() {
     const defaultItems = ['List1', 'List2', 'List3'];
@@ -28,14 +29,15 @@ function List() {
 
     return(
         <>
-        
-            <h1>To-do List</h1>
-    
+        <div className="todo-list">
+            <h2>To-do List</h2>
+    <div className="input-group">
             <input
             value={text}
             onChange={e => setText(e.target.value)}
             />
                 <button onClick={addItem}>Add</button>
+             </div>
                 <ul>
                     {lists.map((list) => (
                        <li key={list.id}>
@@ -46,6 +48,7 @@ function List() {
                        </li> 
                     ))}
                 </ul>
+             </div>
         </>
     );
 };
