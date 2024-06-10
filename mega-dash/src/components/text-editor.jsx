@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '/home/codio/workspace/mega-dash/src/components/textEditor.css';
 
 const TextEditor = () => {
 
@@ -9,7 +10,8 @@ const TextEditor = () => {
   
     return (
         <>
-        <div>
+        <div className="email-editor">
+            <div className="editor">
             <textarea
                 value={text}
                 onChange={handleChange}
@@ -17,13 +19,14 @@ const TextEditor = () => {
                 cols="50"
                 placeholder="Text here..."
              />
-            <div>
+             </div>
+            <div className="preview">
                 <h3>Preview</h3>
                 <p>{text}</p>
             </div>
         </div>
             </>
-    )
-}
+    );
+};
 
 export default TextEditor;

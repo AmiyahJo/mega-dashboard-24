@@ -17,7 +17,7 @@ function App() {
      <p>Mega dashboard app</p>
      <div className='dashboard'>
 
-        <div className='widget widget-1'>Pomodoro Timer
+        <div className='widget widget-1'>
         <PomodoroTimer/>
         </div>
         <div className='widget widget-2'>
@@ -29,11 +29,11 @@ function App() {
         <div className='widget widget-4'>Random Quote generator
         <RandomQuote/>
         </div>
-        <div className='widget widget-5'>Virtual dice roller
+        <div className='widget widget-5'>
         <Diceroller/>
         </div>
         
-        <div className='widget widget-6'>Text editor
+        <div className='widget widget-6'>
         <TextEditor/>
         </div>
      </div>

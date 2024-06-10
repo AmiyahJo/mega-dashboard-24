@@ -3,10 +3,10 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px solid #ffcc80;
+    border: 2px solid #676f9d;
     padding: 20px;
     border-radius: 15px;
-    background: linear-gradient(135deg, #ffeb3b, 25%, #ffa726 100%);
+    background: #2D3250;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     color: #333;
     font-family: 'Arial', sans-serif;
@@ -26,7 +26,7 @@
 
 .input-group input{
     padding: 10px;
-    border: 2px solid #ffa726;
+    border: 2px solid #ff7043;
     border-radius: 5px 0 0 5px;
     outline: none;
     width: 200px;
@@ -54,12 +54,13 @@ ul{
 }
 
 ul li{
+    color: #ffff;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    border-bottom: 1px solid #ffcc80;
-    background-color: #fff3e0;
+    border-bottom: 1px solid #f9b17a;
+    background-color: #676f9d;
     border-radius: 5px;
     margin-bottom: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -68,13 +69,13 @@ ul li{
 ul li button{
     background: none;
     border: none;
-    color: #f4511e;
+    color: #ffff;
     cursor: pointer;
     font-size: 16px;
     outline: none;
 }
 
 ul li button:hover{
-    color: #d32f2f
+    color: #c87536
 }
 
