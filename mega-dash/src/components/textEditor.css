@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     padding: 20px;
-    background-color: #f9f9f9;
+    /* background-color: #f9f9f9; */
     /* border: 1px solid #ddd; */
     border-radius: 8px;
     width: 80%;
@@ -18,8 +18,7 @@
     outline: none;
 }
 
-.editor textarea {
-    
+.editor textarea {   
     width: 100%;
     height: 200px;
     padding: 10px;

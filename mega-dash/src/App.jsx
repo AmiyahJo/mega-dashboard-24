@@ -26,7 +26,7 @@ function App() {
         <div className='widget widget-3'>
         <List/>
           </div>
-        <div className='widget widget-4'>Random Quote generator
+        <div className='widget widget-4'>
         <RandomQuote/>
         </div>
         <div className='widget widget-5'>

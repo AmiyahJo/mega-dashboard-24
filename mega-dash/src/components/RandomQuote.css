@@ -1,0 +1,21 @@
+.random-quote{
+    background-color: #bb9684;
+    border-radius: 20px;
+    height: 100px;
+}
+
+.quote-text{
+    padding: 10px;
+    color: #ead1ba;
+}
+
+.quote-author{
+    font-size: 15px;
+    color: #6b4420;
+}
+
+.random-quote button{
+    padding: 10px;
+    background-color: #3a465c;
+    color: #d2beb0;
+}
